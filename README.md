@@ -25,7 +25,7 @@
 
 API para juego de cartas deportivas desarrollada con NestJS
 
-## 🚀 Características
+## Características
 
 - Autenticación JWT
 - WebSockets para juego en tiempo real
@@ -33,7 +33,7 @@ API para juego de cartas deportivas desarrollada con NestJS
 - Documentación con Swagger
 - Tests unitarios y E2E
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - NestJS
 - TypeScript
@@ -43,14 +43,14 @@ API para juego de cartas deportivas desarrollada con NestJS
 - Docker
 - Kubernetes
 
-## 📋 Prerrequisitos
+## Prerrequisitos
 
 - Node.js 18+
 - npm/pnpm
 - Docker (opcional)
 - kubectl (opcional)
 
-## 🔧 Instalación
+## Instalación
 
 ```bash
 # Clonar el repositorio
@@ -66,7 +66,7 @@ cp .env.example .env
 npx prisma migrate dev
 ```
 
-## 🏃 Ejecución
+## Ejecución
 
 ```bash
 # Desarrollo
@@ -79,7 +79,7 @@ npm run start:prod
 docker-compose up
 ```
 
-## 🧪 Tests
+## Tests
 
 ```bash
 # Tests unitarios
@@ -89,7 +89,7 @@ npm run test
 npm run test:e2e
 ```
 
-## 📦 Despliegue
+## Despliegue
 
 ### Docker
 El proyecto incluye Dockerfile y docker-compose.yml para facilitar el despliegue:
@@ -105,11 +105,9 @@ Los archivos de configuración están en la carpeta /k8s:
 kubectl apply -f k8s/
 ```
 
-## 📖 Documentación
+## Documentación
 
 - Swagger UI: http://localhost:3000/api
 - Documentación detallada en /docs
 
-## 📄 Licencia
-
-MIT
+#MIT
